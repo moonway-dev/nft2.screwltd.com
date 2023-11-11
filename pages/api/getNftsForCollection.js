@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   }
   console.log(chain);
   const settings = {
-    apiKey: r6sspa9mya-ulwbeqfY7zha5EPXgHJ6p,
+    apiKey: 'r6sspa9mya-ulwbeqfY7zha5EPXgHJ6p',
     network: Network[chain],
   };
   const alchemy = new Alchemy(settings);
