@@ -10,7 +10,7 @@ export default async function handler(req, res) {
 	}
 
 	const settings = {
-		apiKey: process.env.ALCHEMY_API_KEY,
+		apiKey: 'r6sspa9mya-ulwbeqfY7zha5EPXgHJ6p',
 		network: Network[chain],
 	};
 
